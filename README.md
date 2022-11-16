@@ -64,6 +64,13 @@ Some are:
   - **Follow Boy Scout Rule:** See if any existing bad code can be improvised - though it is not written by the developer who raised the pull request.
   - **YAGNI principle:** If you comment some code for future use then you Aren’t Gonna Need It because when it come the context will change.
   - **DRY:** Try to do not repeat yourself.
+  
+## Performance Check
+  - Check memory leak from instrument
+  - View debuger
+  - Debug memory graph
+  - Try to free main thread.
+  - Remove observer properly.
 
 ## Some very basic Principle:
 
@@ -120,3 +127,4 @@ final class DIContainer: DIContainerProtocol {
 
   - **Write code in protocol Extension** Try as many code write in the extention. It will provide a default implementation and clean code.
 
+  - **Decoupled:** Think about how many object you use inside a class. Are those object inject properly? Are they ducouple? My [article](https://rejaul-hasan.medium.com/coupling-in-swift-9f73fa6024c6) on this topic. You find many other article also.
