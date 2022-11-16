@@ -6,7 +6,7 @@ Some are:
 - https://medium.com/swiftcairo/ios-code-review-checklist-482f17f5c7c6
 
 ## General:
-  - Avoid Type Inference: If you know the actual type the write it done because type inference increase compiler time. To Usderstand properly, please read [this](https://stackoverflow.com/questions/37707403/what-is-the-difference-between-type-safety-and-type-inference) 
+  - **Avoid Type Inference:** If you know the actual type the write it done because type inference increase compiler time. To Usderstand properly, please read [this](https://stackoverflow.com/questions/37707403/what-is-the-difference-between-type-safety-and-type-inference) 
   
   - **Prefer using Higher Order Functions:** If possible use Higher Order Functions as they are more optimal. Increase the code quality.
   
