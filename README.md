@@ -60,11 +60,10 @@ Some are:
   - Extract constant to a struct
 
 ## Common responsibility for all developer:
-
-  -**Kiss:** keep is simple and stupid.
-  -**Follow Boy Scout Rule:** See if any existing bad code can be improvised - though it is not written by the developer who raised the pull request.
-  -**YAGNI principle:** If you comment some code for future use then you Aren’t Gonna Need It because when it come the context will change.
-  -**DRY:** Try to do not repeat yourself.
+  - **Kiss:** keep is simple and stupid.
+  - **Follow Boy Scout Rule:** See if any existing bad code can be improvised - though it is not written by the developer who raised the pull request.
+  - **YAGNI principle:** If you comment some code for future use then you Aren’t Gonna Need It because when it come the context will change.
+  - **DRY:** Try to do not repeat yourself.
 
 ## Some very basic Principle:
 
